@@ -31,12 +31,12 @@ spec:
             value: roboshop123
         readinessProbe:
           tcpSocket:
-            port: 6379
+            port: 5672
           initialDelaySeconds: 10
           periodSeconds: 10
         livenessProbe:
           tcpSocket:
-            port: 6379
+            port: 5672
           initialDelaySeconds: 5
           periodSeconds: 5
 ---
