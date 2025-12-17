@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: abbitmq:3
+        image: rabbitmq:3
         env:
           - name: RABBITMQ_DEFAULT_USER
             value: roboshop 
