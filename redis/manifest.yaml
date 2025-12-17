@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: rredis:7.0
+        image: redis:7.0
         readinessProbe:
           tcpSocket:
             port: 6379
